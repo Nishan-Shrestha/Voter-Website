@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.heading{
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.voterContainer{
+    margin-left: 2rem;
+    box-shadow: rgba(192, 113, 113, 0.5) 0px 5px 15px;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 300px; 
+    margin-bottom: 1rem;
+}
+.voter-main-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.candidate-1{
+display: flex;
+flex-direction: column-reverse;
+}
+.candidate-name{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight:400;
+    padding-top: 1rem;
+}
+.voterContainer:hover{
+    box-shadow: rgba(7, 1, 1, 1) 0px 5px 15px;
+}
+img{
+    height: 300px;
+    object-fit: cover;
+    width: 300px;
+}
+.vote-now{
+    font-size: 1rem;
+    background:rgb(50, 7, 151);
+    margin-top: 1rem;
+padding: 1rem;
+
+}
+button{
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+   
+}
+button:hover{
+    background-color:red;
+}
+.voting-page-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* delete it later */
+.quantity{
+    margin-left: 4rem;
+  
+    width: 30px;
+    font-size: 2rem;
+}
+.hide{
+    display: none;
+}
+.exit{
+   
+        padding: 1rem;
+        background-color: red;
+        margin-right: 2rem;
+       
+        color: wheat;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 6rem;
+    
+}
+a{
+    text-decoration: none;
+}

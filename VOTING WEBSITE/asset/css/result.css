@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.live-ranking{
+   font-size: 2rem;
+   color: black;
+   text-transform: capitalize;
+   margin: auto;
+   padding-top: 2rem;
+}
+.voter-result-heading{
+    display: flex;
+
+}
+.vote-now{
+    padding: 1rem;
+    background-color: red;
+    margin-right: 2rem;
+    margin-top:2rem;
+    color: wheat;
+    border-radius: 20px;
+    cursor: pointer;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit:initial;
+}
+.ordered-items{
+    display: flex;
+    box-shadow: rgba(192, 113, 113, 0.5) 0px 5px 15px;
+    margin:1rem 10rem ;
+}
+.img-desc{
+    display: grid;
+   grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  
+}
+.result-heading{
+    display: grid;
+    margin:0 10rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  background-color: burlywood;
+  padding: 1rem;
+}
+.numbers{
+    margin-left: 21rem;
+}
+.Candidate-Votes,
+.Candidate-name,
+.items-name,
+.numbers{
+  margin: auto;
+}
+.numbers{
+    margin-left: 27.5rem;
+}
+.Candidate-name{
+    padding-right: 8rem;
+}
+.numbers{
+    padding-right: 16rem;
+}
+.image{
+    width: 100px;
+    overflow: hidden;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/asset/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" style="display:flex;" >
+        <h1 id="page1-h1">Login</h1>
+
+        <div class="input-field">
+          <label for="name">Name</label>
+          <input type="text" id="username" class="inputVal" placeholder="enter your user Name" required />
+        </div>
+        <div class="input-field">
+          <label for="email">password</label>
+          <input type="password" placeholder="4 digit pin" id="passsword" class="EmailVal"required
+          />
+        </div>
+        <div class="submitButton">
+          <button type="submit" onclick="login()" id="submit-btn">Continue</button>
+        </div>
+      </form >
+    
+    </div>
+ 
+    <script src="/asset/js/script.js"></script>
+  </body>
+</html>
